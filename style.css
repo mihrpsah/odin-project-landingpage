@@ -1,0 +1,53 @@
+header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border: 2px solid blue;
+    background-color: maroon;
+}
+#logo{
+    width: 50px;
+    padding: 5px;
+}
+ul{
+    display: flex;
+    text-decoration: none;
+}
+ul a{
+    color: white;
+    margin: 5px;
+}
+.c{
+    display: flex;
+    justify-content: space-around;
+    padding: 50px 0px;
+    border: 2px solid pink;
+}
+#c1{
+    background-color: maroon;
+    color: white;
+}
+#c1left{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+#c1left h1{
+    font-size: 49px;
+}
+#c1left p{
+    font-size: 20px;
+}
+#c1left button{
+    width: 200px;
+    height: auto;
+    font-size: 20px;
+    color: maroon;
+    background-color: silver;
+    border-radius: 9px;
+}
+#c1left button:hover{
+    color: red;
+}
+
+
